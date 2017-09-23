@@ -1,11 +1,11 @@
-@(projects: List[Project], todoTasks: List[Task])
+@(projects: List[Project], todoTasks: List[Task], user:User)
 
-@main(projects) {
+@main(projects,user) {
 
     <header>
         <hgroup>
             <h1>Dashboard</h1>
-            <h1>Tasks over all projects</h1>
+            <h2>Tasks over all projects</h2>
         </hgroup>
     </header>
 
